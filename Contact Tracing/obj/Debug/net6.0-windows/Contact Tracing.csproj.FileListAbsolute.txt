@@ -1,0 +1,17 @@
+C:\Users\aaa\source\repos\Contact Tracing\Contact Tracing\bin\Debug\net6.0-windows\Contact Tracing.exe
+C:\Users\aaa\source\repos\Contact Tracing\Contact Tracing\bin\Debug\net6.0-windows\Contact Tracing.deps.json
+C:\Users\aaa\source\repos\Contact Tracing\Contact Tracing\bin\Debug\net6.0-windows\Contact Tracing.runtimeconfig.json
+C:\Users\aaa\source\repos\Contact Tracing\Contact Tracing\bin\Debug\net6.0-windows\Contact Tracing.dll
+C:\Users\aaa\source\repos\Contact Tracing\Contact Tracing\bin\Debug\net6.0-windows\Contact Tracing.pdb
+C:\Users\aaa\source\repos\Contact Tracing\Contact Tracing\obj\Debug\net6.0-windows\Contact Tracing.csproj.AssemblyReference.cache
+C:\Users\aaa\source\repos\Contact Tracing\Contact Tracing\obj\Debug\net6.0-windows\Contact_Tracing.CTForm.resources
+C:\Users\aaa\source\repos\Contact Tracing\Contact Tracing\obj\Debug\net6.0-windows\Contact Tracing.csproj.GenerateResource.cache
+C:\Users\aaa\source\repos\Contact Tracing\Contact Tracing\obj\Debug\net6.0-windows\Contact Tracing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aaa\source\repos\Contact Tracing\Contact Tracing\obj\Debug\net6.0-windows\Contact Tracing.AssemblyInfoInputs.cache
+C:\Users\aaa\source\repos\Contact Tracing\Contact Tracing\obj\Debug\net6.0-windows\Contact Tracing.AssemblyInfo.cs
+C:\Users\aaa\source\repos\Contact Tracing\Contact Tracing\obj\Debug\net6.0-windows\Contact Tracing.csproj.CoreCompileInputs.cache
+C:\Users\aaa\source\repos\Contact Tracing\Contact Tracing\obj\Debug\net6.0-windows\Contact Tracing.dll
+C:\Users\aaa\source\repos\Contact Tracing\Contact Tracing\obj\Debug\net6.0-windows\refint\Contact Tracing.dll
+C:\Users\aaa\source\repos\Contact Tracing\Contact Tracing\obj\Debug\net6.0-windows\Contact Tracing.pdb
+C:\Users\aaa\source\repos\Contact Tracing\Contact Tracing\obj\Debug\net6.0-windows\Contact Tracing.genruntimeconfig.cache
+C:\Users\aaa\source\repos\Contact Tracing\Contact Tracing\obj\Debug\net6.0-windows\ref\Contact Tracing.dll

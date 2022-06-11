@@ -1,8 +1,8 @@
 namespace Contact_Tracing
 {
-    public partial class Form1 : Form
+    public partial class CTForm : Form
     {
-        public Form1()
+        public CTForm()
         {
             InitializeComponent();
         }
