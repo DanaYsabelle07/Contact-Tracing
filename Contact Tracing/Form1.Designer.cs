@@ -424,7 +424,7 @@
             // 
             // clearallbutton
             // 
-            this.clearallbutton.Location = new System.Drawing.Point(574, 428);
+            this.clearallbutton.Location = new System.Drawing.Point(574, 430);
             this.clearallbutton.Name = "clearallbutton";
             this.clearallbutton.Size = new System.Drawing.Size(75, 23);
             this.clearallbutton.TabIndex = 42;
@@ -436,7 +436,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(742, 465);
+            this.ClientSize = new System.Drawing.Size(742, 463);
             this.Controls.Add(this.clearallbutton);
             this.Controls.Add(this.savebutton);
             this.Controls.Add(this.facemask2box);
@@ -479,6 +479,9 @@
             this.Controls.Add(this.middlenamelabel);
             this.Controls.Add(this.firstnamelabel);
             this.Controls.Add(this.lastnamelabel);
+            this.MaximizeBox = false;
+            this.MdiChildrenMinimizedAnchorBottom = false;
+            this.MinimizeBox = false;
             this.Name = "CTForm";
             this.Text = "Contact Tracing Form";
             this.ResumeLayout(false);
