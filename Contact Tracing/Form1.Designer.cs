@@ -69,6 +69,7 @@
             this.distance2box = new System.Windows.Forms.TextBox();
             this.facemask2box = new System.Windows.Forms.TextBox();
             this.savebutton = new System.Windows.Forms.Button();
+            this.clearallbutton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lastnamelabel
@@ -421,11 +422,22 @@
             this.savebutton.UseVisualStyleBackColor = true;
             this.savebutton.Click += new System.EventHandler(this.savebutton_Click);
             // 
+            // clearallbutton
+            // 
+            this.clearallbutton.Location = new System.Drawing.Point(574, 428);
+            this.clearallbutton.Name = "clearallbutton";
+            this.clearallbutton.Size = new System.Drawing.Size(75, 23);
+            this.clearallbutton.TabIndex = 42;
+            this.clearallbutton.Text = "Clear All";
+            this.clearallbutton.UseVisualStyleBackColor = true;
+            this.clearallbutton.Click += new System.EventHandler(this.clearallbutton_Click);
+            // 
             // CTForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(742, 465);
+            this.Controls.Add(this.clearallbutton);
             this.Controls.Add(this.savebutton);
             this.Controls.Add(this.facemask2box);
             this.Controls.Add(this.distance2box);
@@ -517,5 +529,6 @@
         private TextBox distance2box;
         private TextBox facemask2box;
         private Button savebutton;
+        private Button clearallbutton;
     }
 }

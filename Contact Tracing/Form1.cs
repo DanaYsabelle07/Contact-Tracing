@@ -33,5 +33,29 @@ namespace Contact_Tracing
             file.WriteLine("\t");
             file.Close();
         }
+
+        private void clearallbutton_Click(object sender, EventArgs e)
+        {
+            datebox.Text = "";
+            lastnamebox.Text = "";
+            firstnamebox.Text = "";
+            middlenamebox.Text = "";
+            agebox.Text = "";
+            bdaybox.Text = "";
+            sexbox.Text = "";
+            addressbox.Text = "";
+            nationalitybox.Text = "";
+            statusbox.Text = "";
+            occupationbox.Text = "";
+            numberbox.Text = "";
+            emailbox.Text = "";
+            residencebox.Text = "";
+            distance1box.Text = "";
+            facemask1box.Text = "";
+            publicdatebox.Text = "";
+            publicaddressbox.Text = "";
+            facemask2box.Text = "";
+            distance2box.Text = "";
+        }
     }
 }
