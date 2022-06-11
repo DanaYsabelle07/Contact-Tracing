@@ -41,13 +41,13 @@
             this.occupationlabel = new System.Windows.Forms.Label();
             this.phonenumberlabel = new System.Windows.Forms.Label();
             this.emaillabel = new System.Windows.Forms.Label();
-            this.peopleinhomelabel = new System.Windows.Forms.Label();
-            this.distancelabel = new System.Windows.Forms.Label();
-            this.facemasklabel = new System.Windows.Forms.Label();
-            this.datepublicplacelabel = new System.Windows.Forms.Label();
-            this.addresspublicplacelabel = new System.Windows.Forms.Label();
+            this.residencelabel = new System.Windows.Forms.Label();
+            this.distance1label = new System.Windows.Forms.Label();
+            this.facemask1label = new System.Windows.Forms.Label();
+            this.publicdatelabel = new System.Windows.Forms.Label();
+            this.publicaddresslabel = new System.Windows.Forms.Label();
             this.facemask2label = new System.Windows.Forms.Label();
-            this.distanceotherpeoplelabel = new System.Windows.Forms.Label();
+            this.distance2label = new System.Windows.Forms.Label();
             this.lastnamebox = new System.Windows.Forms.TextBox();
             this.firstnamebox = new System.Windows.Forms.TextBox();
             this.middlenamebox = new System.Windows.Forms.TextBox();
@@ -65,7 +65,7 @@
             this.facemask1box = new System.Windows.Forms.TextBox();
             this.distance1box = new System.Windows.Forms.TextBox();
             this.publicaddressbox = new System.Windows.Forms.TextBox();
-            this.publicplacebox = new System.Windows.Forms.TextBox();
+            this.publicdatebox = new System.Windows.Forms.TextBox();
             this.distance2box = new System.Windows.Forms.TextBox();
             this.facemask2box = new System.Windows.Forms.TextBox();
             this.savebutton = new System.Windows.Forms.Button();
@@ -188,50 +188,50 @@
             this.emaillabel.TabIndex = 12;
             this.emaillabel.Text = "Email Address:";
             // 
-            // peopleinhomelabel
+            // residencelabel
             // 
-            this.peopleinhomelabel.AutoSize = true;
-            this.peopleinhomelabel.Location = new System.Drawing.Point(33, 264);
-            this.peopleinhomelabel.Name = "peopleinhomelabel";
-            this.peopleinhomelabel.Size = new System.Drawing.Size(178, 15);
-            this.peopleinhomelabel.TabIndex = 13;
-            this.peopleinhomelabel.Text = "No. of People at your Residence:";
+            this.residencelabel.AutoSize = true;
+            this.residencelabel.Location = new System.Drawing.Point(33, 264);
+            this.residencelabel.Name = "residencelabel";
+            this.residencelabel.Size = new System.Drawing.Size(178, 15);
+            this.residencelabel.TabIndex = 13;
+            this.residencelabel.Text = "No. of People at your Residence:";
             // 
-            // distancelabel
+            // distance1label
             // 
-            this.distancelabel.AutoSize = true;
-            this.distancelabel.Location = new System.Drawing.Point(32, 293);
-            this.distancelabel.Name = "distancelabel";
-            this.distancelabel.Size = new System.Drawing.Size(265, 15);
-            this.distancelabel.TabIndex = 14;
-            this.distancelabel.Text = "Do you keep a 1 meter distance from each other?";
+            this.distance1label.AutoSize = true;
+            this.distance1label.Location = new System.Drawing.Point(32, 293);
+            this.distance1label.Name = "distance1label";
+            this.distance1label.Size = new System.Drawing.Size(265, 15);
+            this.distance1label.TabIndex = 14;
+            this.distance1label.Text = "Do you keep a 1 meter distance from each other?";
             // 
-            // facemasklabel
+            // facemask1label
             // 
-            this.facemasklabel.AutoSize = true;
-            this.facemasklabel.Location = new System.Drawing.Point(33, 322);
-            this.facemasklabel.Name = "facemasklabel";
-            this.facemasklabel.Size = new System.Drawing.Size(190, 15);
-            this.facemasklabel.TabIndex = 15;
-            this.facemasklabel.Text = "Do you a wear face mask at home?";
+            this.facemask1label.AutoSize = true;
+            this.facemask1label.Location = new System.Drawing.Point(33, 322);
+            this.facemask1label.Name = "facemask1label";
+            this.facemask1label.Size = new System.Drawing.Size(190, 15);
+            this.facemask1label.TabIndex = 15;
+            this.facemask1label.Text = "Do you a wear face mask at home?";
             // 
-            // datepublicplacelabel
+            // publicdatelabel
             // 
-            this.datepublicplacelabel.AutoSize = true;
-            this.datepublicplacelabel.Location = new System.Drawing.Point(33, 351);
-            this.datepublicplacelabel.Name = "datepublicplacelabel";
-            this.datepublicplacelabel.Size = new System.Drawing.Size(256, 15);
-            this.datepublicplacelabel.TabIndex = 16;
-            this.datepublicplacelabel.Text = "Date of the last time you go into a public place:\n";
+            this.publicdatelabel.AutoSize = true;
+            this.publicdatelabel.Location = new System.Drawing.Point(33, 351);
+            this.publicdatelabel.Name = "publicdatelabel";
+            this.publicdatelabel.Size = new System.Drawing.Size(256, 15);
+            this.publicdatelabel.TabIndex = 16;
+            this.publicdatelabel.Text = "Date of the last time you go into a public place:\n";
             // 
-            // addresspublicplacelabel
+            // publicaddresslabel
             // 
-            this.addresspublicplacelabel.AutoSize = true;
-            this.addresspublicplacelabel.Location = new System.Drawing.Point(32, 380);
-            this.addresspublicplacelabel.Name = "addresspublicplacelabel";
-            this.addresspublicplacelabel.Size = new System.Drawing.Size(213, 15);
-            this.addresspublicplacelabel.TabIndex = 17;
-            this.addresspublicplacelabel.Text = "Address of the public place you visited:\n";
+            this.publicaddresslabel.AutoSize = true;
+            this.publicaddresslabel.Location = new System.Drawing.Point(32, 380);
+            this.publicaddresslabel.Name = "publicaddresslabel";
+            this.publicaddresslabel.Size = new System.Drawing.Size(213, 15);
+            this.publicaddresslabel.TabIndex = 17;
+            this.publicaddresslabel.Text = "Address of the public place you visited:\n";
             // 
             // facemask2label
             // 
@@ -242,14 +242,14 @@
             this.facemask2label.TabIndex = 18;
             this.facemask2label.Text = "Are you wearing a face mask at that time?\n";
             // 
-            // distanceotherpeoplelabel
+            // distance2label
             // 
-            this.distanceotherpeoplelabel.AutoSize = true;
-            this.distanceotherpeoplelabel.Location = new System.Drawing.Point(33, 438);
-            this.distanceotherpeoplelabel.Name = "distanceotherpeoplelabel";
-            this.distanceotherpeoplelabel.Size = new System.Drawing.Size(281, 15);
-            this.distanceotherpeoplelabel.TabIndex = 19;
-            this.distanceotherpeoplelabel.Text = "Did you keep a 1-meter distance from other people?\n";
+            this.distance2label.AutoSize = true;
+            this.distance2label.Location = new System.Drawing.Point(33, 438);
+            this.distance2label.Name = "distance2label";
+            this.distance2label.Size = new System.Drawing.Size(281, 15);
+            this.distance2label.TabIndex = 19;
+            this.distance2label.Text = "Did you keep a 1-meter distance from other people?\n";
             // 
             // lastnamebox
             // 
@@ -387,13 +387,13 @@
             this.publicaddressbox.Size = new System.Drawing.Size(155, 23);
             this.publicaddressbox.TabIndex = 37;
             // 
-            // publicplacebox
+            // publicdatebox
             // 
-            this.publicplacebox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.publicplacebox.Location = new System.Drawing.Point(315, 343);
-            this.publicplacebox.Name = "publicplacebox";
-            this.publicplacebox.Size = new System.Drawing.Size(155, 23);
-            this.publicplacebox.TabIndex = 38;
+            this.publicdatebox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.publicdatebox.Location = new System.Drawing.Point(315, 343);
+            this.publicdatebox.Name = "publicdatebox";
+            this.publicdatebox.Size = new System.Drawing.Size(155, 23);
+            this.publicdatebox.TabIndex = 38;
             // 
             // distance2box
             // 
@@ -419,6 +419,7 @@
             this.savebutton.TabIndex = 41;
             this.savebutton.Text = "Save";
             this.savebutton.UseVisualStyleBackColor = true;
+            this.savebutton.Click += new System.EventHandler(this.savebutton_Click);
             // 
             // CTForm
             // 
@@ -428,7 +429,7 @@
             this.Controls.Add(this.savebutton);
             this.Controls.Add(this.facemask2box);
             this.Controls.Add(this.distance2box);
-            this.Controls.Add(this.publicplacebox);
+            this.Controls.Add(this.publicdatebox);
             this.Controls.Add(this.publicaddressbox);
             this.Controls.Add(this.distance1box);
             this.Controls.Add(this.facemask1box);
@@ -446,13 +447,13 @@
             this.Controls.Add(this.middlenamebox);
             this.Controls.Add(this.firstnamebox);
             this.Controls.Add(this.lastnamebox);
-            this.Controls.Add(this.distanceotherpeoplelabel);
+            this.Controls.Add(this.distance2label);
             this.Controls.Add(this.facemask2label);
-            this.Controls.Add(this.addresspublicplacelabel);
-            this.Controls.Add(this.datepublicplacelabel);
-            this.Controls.Add(this.facemasklabel);
-            this.Controls.Add(this.distancelabel);
-            this.Controls.Add(this.peopleinhomelabel);
+            this.Controls.Add(this.publicaddresslabel);
+            this.Controls.Add(this.publicdatelabel);
+            this.Controls.Add(this.facemask1label);
+            this.Controls.Add(this.distance1label);
+            this.Controls.Add(this.residencelabel);
             this.Controls.Add(this.emaillabel);
             this.Controls.Add(this.phonenumberlabel);
             this.Controls.Add(this.occupationlabel);
@@ -488,13 +489,13 @@
         private Label occupationlabel;
         private Label phonenumberlabel;
         private Label emaillabel;
-        private Label peopleinhomelabel;
-        private Label distancelabel;
-        private Label facemasklabel;
-        private Label datepublicplacelabel;
-        private Label addresspublicplacelabel;
+        private Label residencelabel;
+        private Label distance1label;
+        private Label facemask1label;
+        private Label publicdatelabel;
+        private Label publicaddresslabel;
         private Label facemask2label;
-        private Label distanceotherpeoplelabel;
+        private Label distance2label;
         private TextBox lastnamebox;
         private TextBox firstnamebox;
         private TextBox middlenamebox;
@@ -512,7 +513,7 @@
         private TextBox facemask1box;
         private TextBox distance1box;
         private TextBox publicaddressbox;
-        private TextBox publicplacebox;
+        private TextBox publicdatebox;
         private TextBox distance2box;
         private TextBox facemask2box;
         private Button savebutton;
