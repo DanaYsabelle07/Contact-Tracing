@@ -71,6 +71,9 @@
             this.savebutton = new System.Windows.Forms.Button();
             this.clearallbutton = new System.Windows.Forms.Button();
             this.viewallbt = new System.Windows.Forms.Button();
+            this.datefilterbox = new System.Windows.Forms.TextBox();
+            this.viewbt = new System.Windows.Forms.Button();
+            this.finddatelb = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lastnamelabel
@@ -435,7 +438,7 @@
             // 
             // viewallbt
             // 
-            this.viewallbt.Location = new System.Drawing.Point(655, 12);
+            this.viewallbt.Location = new System.Drawing.Point(659, 16);
             this.viewallbt.Name = "viewallbt";
             this.viewallbt.Size = new System.Drawing.Size(75, 23);
             this.viewallbt.TabIndex = 43;
@@ -443,11 +446,41 @@
             this.viewallbt.UseVisualStyleBackColor = true;
             this.viewallbt.Click += new System.EventHandler(this.viewallbt_Click);
             // 
+            // datefilterbox
+            // 
+            this.datefilterbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.datefilterbox.Location = new System.Drawing.Point(408, 14);
+            this.datefilterbox.Name = "datefilterbox";
+            this.datefilterbox.Size = new System.Drawing.Size(155, 23);
+            this.datefilterbox.TabIndex = 44;
+            // 
+            // viewbt
+            // 
+            this.viewbt.Location = new System.Drawing.Point(578, 16);
+            this.viewbt.Name = "viewbt";
+            this.viewbt.Size = new System.Drawing.Size(75, 23);
+            this.viewbt.TabIndex = 45;
+            this.viewbt.Text = "View";
+            this.viewbt.UseVisualStyleBackColor = true;
+            this.viewbt.Click += new System.EventHandler(this.viewbt_Click);
+            // 
+            // finddatelb
+            // 
+            this.finddatelb.AutoSize = true;
+            this.finddatelb.Location = new System.Drawing.Point(342, 20);
+            this.finddatelb.Name = "finddatelb";
+            this.finddatelb.Size = new System.Drawing.Size(60, 15);
+            this.finddatelb.TabIndex = 46;
+            this.finddatelb.Text = "Find Date:";
+            // 
             // CTForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(742, 490);
+            this.Controls.Add(this.finddatelb);
+            this.Controls.Add(this.viewbt);
+            this.Controls.Add(this.datefilterbox);
             this.Controls.Add(this.viewallbt);
             this.Controls.Add(this.clearallbutton);
             this.Controls.Add(this.savebutton);
@@ -546,5 +579,8 @@
         private Button savebutton;
         private Button clearallbutton;
         private Button viewallbt;
+        private TextBox datefilterbox;
+        private Button viewbt;
+        private Label finddatelb;
     }
 }
