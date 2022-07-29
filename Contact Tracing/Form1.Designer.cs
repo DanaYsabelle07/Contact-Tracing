@@ -70,12 +70,13 @@
             this.facemask2box = new System.Windows.Forms.TextBox();
             this.savebutton = new System.Windows.Forms.Button();
             this.clearallbutton = new System.Windows.Forms.Button();
+            this.viewallbt = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lastnamelabel
             // 
             this.lastnamelabel.AutoSize = true;
-            this.lastnamelabel.Location = new System.Drawing.Point(32, 57);
+            this.lastnamelabel.Location = new System.Drawing.Point(36, 82);
             this.lastnamelabel.Name = "lastnamelabel";
             this.lastnamelabel.Size = new System.Drawing.Size(66, 15);
             this.lastnamelabel.TabIndex = 0;
@@ -84,7 +85,7 @@
             // firstnamelabel
             // 
             this.firstnamelabel.AutoSize = true;
-            this.firstnamelabel.Location = new System.Drawing.Point(33, 83);
+            this.firstnamelabel.Location = new System.Drawing.Point(37, 108);
             this.firstnamelabel.Name = "firstnamelabel";
             this.firstnamelabel.Size = new System.Drawing.Size(67, 15);
             this.firstnamelabel.TabIndex = 1;
@@ -93,7 +94,7 @@
             // middlenamelabel
             // 
             this.middlenamelabel.AutoSize = true;
-            this.middlenamelabel.Location = new System.Drawing.Point(32, 109);
+            this.middlenamelabel.Location = new System.Drawing.Point(36, 134);
             this.middlenamelabel.Name = "middlenamelabel";
             this.middlenamelabel.Size = new System.Drawing.Size(82, 15);
             this.middlenamelabel.TabIndex = 2;
@@ -102,7 +103,7 @@
             // agelabel
             // 
             this.agelabel.AutoSize = true;
-            this.agelabel.Location = new System.Drawing.Point(439, 51);
+            this.agelabel.Location = new System.Drawing.Point(443, 76);
             this.agelabel.Name = "agelabel";
             this.agelabel.Size = new System.Drawing.Size(31, 15);
             this.agelabel.TabIndex = 3;
@@ -111,7 +112,7 @@
             // bdaylabel
             // 
             this.bdaylabel.AutoSize = true;
-            this.bdaylabel.Location = new System.Drawing.Point(436, 83);
+            this.bdaylabel.Location = new System.Drawing.Point(440, 108);
             this.bdaylabel.Name = "bdaylabel";
             this.bdaylabel.Size = new System.Drawing.Size(54, 15);
             this.bdaylabel.TabIndex = 4;
@@ -120,7 +121,7 @@
             // addresslabel
             // 
             this.addresslabel.AutoSize = true;
-            this.addresslabel.Location = new System.Drawing.Point(32, 146);
+            this.addresslabel.Location = new System.Drawing.Point(36, 171);
             this.addresslabel.Name = "addresslabel";
             this.addresslabel.Size = new System.Drawing.Size(74, 15);
             this.addresslabel.TabIndex = 5;
@@ -129,7 +130,7 @@
             // datelabel
             // 
             this.datelabel.AutoSize = true;
-            this.datelabel.Location = new System.Drawing.Point(12, 9);
+            this.datelabel.Location = new System.Drawing.Point(41, 16);
             this.datelabel.Name = "datelabel";
             this.datelabel.Size = new System.Drawing.Size(34, 15);
             this.datelabel.TabIndex = 6;
@@ -138,7 +139,7 @@
             // sexlabel
             // 
             this.sexlabel.AutoSize = true;
-            this.sexlabel.Location = new System.Drawing.Point(439, 112);
+            this.sexlabel.Location = new System.Drawing.Point(443, 137);
             this.sexlabel.Name = "sexlabel";
             this.sexlabel.Size = new System.Drawing.Size(28, 15);
             this.sexlabel.TabIndex = 7;
@@ -147,7 +148,7 @@
             // nationalitylabel
             // 
             this.nationalitylabel.AutoSize = true;
-            this.nationalitylabel.Location = new System.Drawing.Point(32, 175);
+            this.nationalitylabel.Location = new System.Drawing.Point(36, 200);
             this.nationalitylabel.Name = "nationalitylabel";
             this.nationalitylabel.Size = new System.Drawing.Size(68, 15);
             this.nationalitylabel.TabIndex = 8;
@@ -156,7 +157,7 @@
             // statuslabel
             // 
             this.statuslabel.AutoSize = true;
-            this.statuslabel.Location = new System.Drawing.Point(32, 204);
+            this.statuslabel.Location = new System.Drawing.Point(36, 229);
             this.statuslabel.Name = "statuslabel";
             this.statuslabel.Size = new System.Drawing.Size(42, 15);
             this.statuslabel.TabIndex = 9;
@@ -165,7 +166,7 @@
             // occupationlabel
             // 
             this.occupationlabel.AutoSize = true;
-            this.occupationlabel.Location = new System.Drawing.Point(32, 233);
+            this.occupationlabel.Location = new System.Drawing.Point(36, 258);
             this.occupationlabel.Name = "occupationlabel";
             this.occupationlabel.Size = new System.Drawing.Size(72, 15);
             this.occupationlabel.TabIndex = 10;
@@ -174,7 +175,7 @@
             // phonenumberlabel
             // 
             this.phonenumberlabel.AutoSize = true;
-            this.phonenumberlabel.Location = new System.Drawing.Point(439, 170);
+            this.phonenumberlabel.Location = new System.Drawing.Point(443, 195);
             this.phonenumberlabel.Name = "phonenumberlabel";
             this.phonenumberlabel.Size = new System.Drawing.Size(91, 15);
             this.phonenumberlabel.TabIndex = 11;
@@ -183,7 +184,7 @@
             // emaillabel
             // 
             this.emaillabel.AutoSize = true;
-            this.emaillabel.Location = new System.Drawing.Point(443, 199);
+            this.emaillabel.Location = new System.Drawing.Point(447, 224);
             this.emaillabel.Name = "emaillabel";
             this.emaillabel.Size = new System.Drawing.Size(84, 15);
             this.emaillabel.TabIndex = 12;
@@ -192,7 +193,7 @@
             // residencelabel
             // 
             this.residencelabel.AutoSize = true;
-            this.residencelabel.Location = new System.Drawing.Point(33, 264);
+            this.residencelabel.Location = new System.Drawing.Point(37, 289);
             this.residencelabel.Name = "residencelabel";
             this.residencelabel.Size = new System.Drawing.Size(178, 15);
             this.residencelabel.TabIndex = 13;
@@ -201,7 +202,7 @@
             // distance1label
             // 
             this.distance1label.AutoSize = true;
-            this.distance1label.Location = new System.Drawing.Point(32, 293);
+            this.distance1label.Location = new System.Drawing.Point(36, 318);
             this.distance1label.Name = "distance1label";
             this.distance1label.Size = new System.Drawing.Size(265, 15);
             this.distance1label.TabIndex = 14;
@@ -210,7 +211,7 @@
             // facemask1label
             // 
             this.facemask1label.AutoSize = true;
-            this.facemask1label.Location = new System.Drawing.Point(33, 322);
+            this.facemask1label.Location = new System.Drawing.Point(37, 347);
             this.facemask1label.Name = "facemask1label";
             this.facemask1label.Size = new System.Drawing.Size(190, 15);
             this.facemask1label.TabIndex = 15;
@@ -219,7 +220,7 @@
             // publicdatelabel
             // 
             this.publicdatelabel.AutoSize = true;
-            this.publicdatelabel.Location = new System.Drawing.Point(33, 351);
+            this.publicdatelabel.Location = new System.Drawing.Point(37, 376);
             this.publicdatelabel.Name = "publicdatelabel";
             this.publicdatelabel.Size = new System.Drawing.Size(256, 15);
             this.publicdatelabel.TabIndex = 16;
@@ -228,7 +229,7 @@
             // publicaddresslabel
             // 
             this.publicaddresslabel.AutoSize = true;
-            this.publicaddresslabel.Location = new System.Drawing.Point(32, 380);
+            this.publicaddresslabel.Location = new System.Drawing.Point(36, 405);
             this.publicaddresslabel.Name = "publicaddresslabel";
             this.publicaddresslabel.Size = new System.Drawing.Size(213, 15);
             this.publicaddresslabel.TabIndex = 17;
@@ -237,7 +238,7 @@
             // facemask2label
             // 
             this.facemask2label.AutoSize = true;
-            this.facemask2label.Location = new System.Drawing.Point(33, 409);
+            this.facemask2label.Location = new System.Drawing.Point(37, 434);
             this.facemask2label.Name = "facemask2label";
             this.facemask2label.Size = new System.Drawing.Size(227, 15);
             this.facemask2label.TabIndex = 18;
@@ -246,7 +247,7 @@
             // distance2label
             // 
             this.distance2label.AutoSize = true;
-            this.distance2label.Location = new System.Drawing.Point(33, 438);
+            this.distance2label.Location = new System.Drawing.Point(37, 463);
             this.distance2label.Name = "distance2label";
             this.distance2label.Size = new System.Drawing.Size(281, 15);
             this.distance2label.TabIndex = 19;
@@ -255,7 +256,7 @@
             // lastnamebox
             // 
             this.lastnamebox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lastnamebox.Location = new System.Drawing.Point(120, 49);
+            this.lastnamebox.Location = new System.Drawing.Point(124, 74);
             this.lastnamebox.Name = "lastnamebox";
             this.lastnamebox.Size = new System.Drawing.Size(155, 23);
             this.lastnamebox.TabIndex = 21;
@@ -263,7 +264,7 @@
             // firstnamebox
             // 
             this.firstnamebox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.firstnamebox.Location = new System.Drawing.Point(120, 75);
+            this.firstnamebox.Location = new System.Drawing.Point(124, 100);
             this.firstnamebox.Name = "firstnamebox";
             this.firstnamebox.Size = new System.Drawing.Size(155, 23);
             this.firstnamebox.TabIndex = 22;
@@ -271,7 +272,7 @@
             // middlenamebox
             // 
             this.middlenamebox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.middlenamebox.Location = new System.Drawing.Point(120, 101);
+            this.middlenamebox.Location = new System.Drawing.Point(124, 126);
             this.middlenamebox.Name = "middlenamebox";
             this.middlenamebox.Size = new System.Drawing.Size(155, 23);
             this.middlenamebox.TabIndex = 23;
@@ -279,7 +280,7 @@
             // datebox
             // 
             this.datebox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.datebox.Location = new System.Drawing.Point(52, 7);
+            this.datebox.Location = new System.Drawing.Point(81, 14);
             this.datebox.Name = "datebox";
             this.datebox.Size = new System.Drawing.Size(155, 23);
             this.datebox.TabIndex = 24;
@@ -287,7 +288,7 @@
             // addressbox
             // 
             this.addressbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.addressbox.Location = new System.Drawing.Point(112, 138);
+            this.addressbox.Location = new System.Drawing.Point(116, 163);
             this.addressbox.Name = "addressbox";
             this.addressbox.Size = new System.Drawing.Size(310, 23);
             this.addressbox.TabIndex = 25;
@@ -295,7 +296,7 @@
             // nationalitybox
             // 
             this.nationalitybox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.nationalitybox.Location = new System.Drawing.Point(112, 167);
+            this.nationalitybox.Location = new System.Drawing.Point(116, 192);
             this.nationalitybox.Name = "nationalitybox";
             this.nationalitybox.Size = new System.Drawing.Size(155, 23);
             this.nationalitybox.TabIndex = 26;
@@ -303,7 +304,7 @@
             // statusbox
             // 
             this.statusbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.statusbox.Location = new System.Drawing.Point(110, 196);
+            this.statusbox.Location = new System.Drawing.Point(114, 221);
             this.statusbox.Name = "statusbox";
             this.statusbox.Size = new System.Drawing.Size(155, 23);
             this.statusbox.TabIndex = 27;
@@ -311,7 +312,7 @@
             // occupationbox
             // 
             this.occupationbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.occupationbox.Location = new System.Drawing.Point(110, 225);
+            this.occupationbox.Location = new System.Drawing.Point(114, 250);
             this.occupationbox.Name = "occupationbox";
             this.occupationbox.Size = new System.Drawing.Size(155, 23);
             this.occupationbox.TabIndex = 28;
@@ -319,7 +320,7 @@
             // agebox
             // 
             this.agebox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.agebox.Location = new System.Drawing.Point(496, 46);
+            this.agebox.Location = new System.Drawing.Point(500, 71);
             this.agebox.Name = "agebox";
             this.agebox.Size = new System.Drawing.Size(155, 23);
             this.agebox.TabIndex = 29;
@@ -327,7 +328,7 @@
             // numberbox
             // 
             this.numberbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.numberbox.Location = new System.Drawing.Point(533, 162);
+            this.numberbox.Location = new System.Drawing.Point(537, 187);
             this.numberbox.Name = "numberbox";
             this.numberbox.Size = new System.Drawing.Size(155, 23);
             this.numberbox.TabIndex = 30;
@@ -335,7 +336,7 @@
             // bdaybox
             // 
             this.bdaybox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.bdaybox.Location = new System.Drawing.Point(496, 75);
+            this.bdaybox.Location = new System.Drawing.Point(500, 100);
             this.bdaybox.Name = "bdaybox";
             this.bdaybox.Size = new System.Drawing.Size(155, 23);
             this.bdaybox.TabIndex = 31;
@@ -343,7 +344,7 @@
             // sexbox
             // 
             this.sexbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.sexbox.Location = new System.Drawing.Point(496, 104);
+            this.sexbox.Location = new System.Drawing.Point(500, 129);
             this.sexbox.Name = "sexbox";
             this.sexbox.Size = new System.Drawing.Size(155, 23);
             this.sexbox.TabIndex = 32;
@@ -351,7 +352,7 @@
             // emailbox
             // 
             this.emailbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.emailbox.Location = new System.Drawing.Point(533, 191);
+            this.emailbox.Location = new System.Drawing.Point(537, 216);
             this.emailbox.Name = "emailbox";
             this.emailbox.Size = new System.Drawing.Size(155, 23);
             this.emailbox.TabIndex = 33;
@@ -359,7 +360,7 @@
             // residencebox
             // 
             this.residencebox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.residencebox.Location = new System.Drawing.Point(315, 256);
+            this.residencebox.Location = new System.Drawing.Point(319, 281);
             this.residencebox.Name = "residencebox";
             this.residencebox.Size = new System.Drawing.Size(155, 23);
             this.residencebox.TabIndex = 34;
@@ -367,7 +368,7 @@
             // facemask1box
             // 
             this.facemask1box.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.facemask1box.Location = new System.Drawing.Point(315, 314);
+            this.facemask1box.Location = new System.Drawing.Point(319, 339);
             this.facemask1box.Name = "facemask1box";
             this.facemask1box.Size = new System.Drawing.Size(155, 23);
             this.facemask1box.TabIndex = 35;
@@ -375,7 +376,7 @@
             // distance1box
             // 
             this.distance1box.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.distance1box.Location = new System.Drawing.Point(315, 285);
+            this.distance1box.Location = new System.Drawing.Point(319, 310);
             this.distance1box.Name = "distance1box";
             this.distance1box.Size = new System.Drawing.Size(155, 23);
             this.distance1box.TabIndex = 36;
@@ -383,7 +384,7 @@
             // publicaddressbox
             // 
             this.publicaddressbox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.publicaddressbox.Location = new System.Drawing.Point(315, 372);
+            this.publicaddressbox.Location = new System.Drawing.Point(319, 397);
             this.publicaddressbox.Name = "publicaddressbox";
             this.publicaddressbox.Size = new System.Drawing.Size(155, 23);
             this.publicaddressbox.TabIndex = 37;
@@ -391,7 +392,7 @@
             // publicdatebox
             // 
             this.publicdatebox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.publicdatebox.Location = new System.Drawing.Point(315, 343);
+            this.publicdatebox.Location = new System.Drawing.Point(319, 368);
             this.publicdatebox.Name = "publicdatebox";
             this.publicdatebox.Size = new System.Drawing.Size(155, 23);
             this.publicdatebox.TabIndex = 38;
@@ -399,7 +400,7 @@
             // distance2box
             // 
             this.distance2box.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.distance2box.Location = new System.Drawing.Point(315, 430);
+            this.distance2box.Location = new System.Drawing.Point(319, 455);
             this.distance2box.Name = "distance2box";
             this.distance2box.Size = new System.Drawing.Size(155, 23);
             this.distance2box.TabIndex = 39;
@@ -407,14 +408,14 @@
             // facemask2box
             // 
             this.facemask2box.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.facemask2box.Location = new System.Drawing.Point(315, 401);
+            this.facemask2box.Location = new System.Drawing.Point(319, 426);
             this.facemask2box.Name = "facemask2box";
             this.facemask2box.Size = new System.Drawing.Size(155, 23);
             this.facemask2box.TabIndex = 40;
             // 
             // savebutton
             // 
-            this.savebutton.Location = new System.Drawing.Point(655, 430);
+            this.savebutton.Location = new System.Drawing.Point(659, 455);
             this.savebutton.Name = "savebutton";
             this.savebutton.Size = new System.Drawing.Size(75, 23);
             this.savebutton.TabIndex = 41;
@@ -424,7 +425,7 @@
             // 
             // clearallbutton
             // 
-            this.clearallbutton.Location = new System.Drawing.Point(574, 430);
+            this.clearallbutton.Location = new System.Drawing.Point(578, 455);
             this.clearallbutton.Name = "clearallbutton";
             this.clearallbutton.Size = new System.Drawing.Size(75, 23);
             this.clearallbutton.TabIndex = 42;
@@ -432,11 +433,22 @@
             this.clearallbutton.UseVisualStyleBackColor = true;
             this.clearallbutton.Click += new System.EventHandler(this.clearallbutton_Click);
             // 
+            // viewallbt
+            // 
+            this.viewallbt.Location = new System.Drawing.Point(655, 12);
+            this.viewallbt.Name = "viewallbt";
+            this.viewallbt.Size = new System.Drawing.Size(75, 23);
+            this.viewallbt.TabIndex = 43;
+            this.viewallbt.Text = "View All";
+            this.viewallbt.UseVisualStyleBackColor = true;
+            this.viewallbt.Click += new System.EventHandler(this.viewallbt_Click);
+            // 
             // CTForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(742, 463);
+            this.ClientSize = new System.Drawing.Size(742, 490);
+            this.Controls.Add(this.viewallbt);
             this.Controls.Add(this.clearallbutton);
             this.Controls.Add(this.savebutton);
             this.Controls.Add(this.facemask2box);
@@ -533,5 +545,6 @@
         private TextBox facemask2box;
         private Button savebutton;
         private Button clearallbutton;
+        private Button viewallbt;
     }
 }

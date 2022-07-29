@@ -57,5 +57,12 @@ namespace Contact_Tracing
             facemask2box.Text = "";
             distance2box.Text = "";
         }
+
+        private void viewallbt_Click(object sender, EventArgs e)
+        {
+            StreamReader reader = new StreamReader(@"C:\Users\aaa\Documents\Contact Tracing Folder\ContactTracingForm.txt");
+            String viewall = reader.ReadToEnd();
+            MessageBox.Show(viewall);
+        }
     }
 }
